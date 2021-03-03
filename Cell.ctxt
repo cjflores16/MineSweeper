@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Cell
+comment0.text=\n\ READ\ THROUGH\ CLASS,\ BUT\ DO\ NOT\ MODIFY\n
+comment1.params=
+comment1.target=Cell()
+comment1.text=\n\ Constructor\ that\ initializes\ cell\ as\ "closed"\ (not\ been\ clicked\ on)\ with\ no\ neighboring\ mines\n
+comment2.params=
+comment2.target=void\ setAsMine()
+comment2.text=\n\ \ Tags\ the\ cell\ as\ a\ mine\n
+comment3.params=
+comment3.target=boolean\ isAMine()
+comment3.text=\n\ \ Returns\ true\ if\ the\ cell\ is\ a\ mine\ false\ otherwise.\n
+comment4.params=
+comment4.target=int\ getValue()
+comment4.text=\n\ \ Getter\ method\ for\ the\ value\ attribute.\ \n\ 9\ means\ cell\ is\ a\ mine\ \n\ 0\ through\ 8\ means\ cell\ is\ NOT\ a\ mine\ but\ cell\ is\ neighboring\ that\ specific\ number\ of\ mines\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Text\ representation\ of\ what\ the\ player\ sees\ in\ the\ cell\ as\ they\ are\ playing\n
+comment6.params=val
+comment6.target=void\ setVal(int)
+comment7.params=
+comment7.target=void\ flag()
+comment8.params=
+comment8.target=void\ open()
+comment9.params=
+comment9.target=boolean\ isOpen()
+numComments=10

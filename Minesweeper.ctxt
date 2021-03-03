@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Minesweeper
+comment1.params=m\ n\ numMines
+comment1.target=Minesweeper(int,\ int,\ int)
+comment1.text=\n\ Constructor\ of\ a\ Minesweeper\ object\n\ \n\ Initializes\ grid\ and\ calls\ method\ to\ place\ mines\n\ \n\ @param\ m\ number\ of\ rows\ on\ the\ board\n\ @param\ n\ number\ of\ columns\ on\ the\ board\n\ @param\ numMines\ number\ of\ mines\ on\ the\ board\n
+comment10.params=
+comment10.target=void\ printMines()
+comment10.text=\n\ Prints\ the\ locations\ of\ all\ mines.\ \n\ Won't\ be\ displayed\ to\ the\ player\ in\ the\ final\ version\ ofgame,\ but\ important\ \n\ for\ the\ programmer\ to\ debug\ and\ understand\ what's\ going\ on.\n\ Do\ not\ modify.\ \n
+comment2.params=
+comment2.target=void\ placeMines()
+comment2.text=\n\ Randomly\ places\ the\ appropriate\ number\ of\ mines\n\ \n\ Watch\ out\:\ Make\ sure\ the\ correct\ number\ of\ mines\ always\ gets\n\ on\ the\ board.\ \ For\ example,\ when\ trying\ to\ place\ 10\ mines,\ it\ \n\ is\ easy\ to\ accidentally\ place\ 9\ (or\ fewer)\ mines\ if\ the\ same\ \n\ row/column\ gets\ randomly\ selected\ more\ than\ once.\ \n\ \n\ Notice\:\ "private"\ method\ because\ called\ only\ internally\ by\n\ the\ constructor.\n
+comment3.params=row\ col
+comment3.target=boolean\ isValidRowCol(int,\ int)
+comment4.params=row\ col
+comment4.target=int\ countNeighboringMines(int,\ int)
+comment5.params=
+comment5.target=void\ fillInCellValues()
+comment6.params=row\ col\ command
+comment6.target=void\ playMove(int,\ int,\ java.lang.String)
+comment7.params=row\ col
+comment7.target=boolean\ lose(int,\ int)
+comment8.params=
+comment8.target=boolean\ win()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+comment9.text=\n\ Outputs\ text\ representation\ of\ the\ board\ as\ seen\ by\ the\ player.\ \ \n\ Do\ not\ modify\!\!\n
+numComments=11
